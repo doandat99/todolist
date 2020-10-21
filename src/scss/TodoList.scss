@@ -1,0 +1,32 @@
+.todo-list {
+  .title {
+    background: blueviolet;
+  }
+
+  .list-group {
+    .list-group-item {
+      .btn-outline-info {
+        margin-right: 10px;
+      }
+
+      .show {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+    }
+  }
+
+  .input-group {
+    input[type=text] {
+      height: 50px;
+    }
+
+    .input-group-append {
+      .btn-primary {
+        width: 125px;
+      }
+    }
+  }
+}
